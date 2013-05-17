@@ -1,6 +1,11 @@
 import sys
 sys.setrecursionlimit(10000000)
 
+# http://i.imgur.com/7vWyVE6.png
+# http://c.sente.cc/gLEr/all_combinations.html
+
+
+
 def getSubstrings(alphabet, sslen, cur=""):
     if len(cur) == len(alphabet) ** sslen + sslen-1:
         return cur
